@@ -12,7 +12,7 @@ float flagimpar =0;
 
 int main() {
 	
-	printf("Realizar un programa donde se ingresen 10 números reales a un arreglo y luego se calcule la suma y el promedio de los elementos de índice par y lo mismo para los elementos de índice impar\n\n");
+	//Realizar un programa donde se ingresen 10 nï¿½meros reales a un arreglo y luego se calcule la suma y el promedio de los elementos de ï¿½ndice par y lo mismo para los elementos de ï¿½ndice impar\n\n");
 	
 	printf("ingrese sus numeros:\n");
 	

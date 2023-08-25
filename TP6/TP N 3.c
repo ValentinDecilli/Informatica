@@ -16,11 +16,10 @@ int change(float *pa ,float *pb){
 	return 0;
 }
 	
+	// Realizar un programa que utilice una funciÃ³n que intercambie los valores de X1 y de X2.
 
 int main() {
-	
-	printf("Realizar un programa que utilice una función que intercambie los valores de X1 y de X2. \n");
-	
+
 	printf("ingrese los valores de\nx1: ");
 	scanf("%f", &x1);
 	printf("\nx2:");

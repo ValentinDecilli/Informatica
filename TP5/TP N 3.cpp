@@ -11,7 +11,7 @@ float res1, res2, res3;
 	
 int main(){
 	
-	printf("Crear una función que devuelva el valor de requivalente de esta expresión pasándole los valores de R1, R2 y R3.\n");
+	//Crear una funciï¿½n que devuelva el valor de requivalente de esta expresiï¿½n pasï¿½ndole los valores de R1, R2 y R3.
 	
 	printf("ingrese el valor de sus resistencias: \n");
 	scanf("%f \n%f \n%f",&res1,&res2,&res3);

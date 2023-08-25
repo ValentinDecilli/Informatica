@@ -5,11 +5,11 @@ float numero;
 int exponente;
 int base;
 int i;
-int operacion();
 
 int main(void) {
 	
-	printf("Crear una función que permita calcular la potencia enésima (exponente entero) de un número real (float). No utilizar la función de la librería math.\n");
+	/*Crear una funciï¿½n que permita calcular la potencia enï¿½sima (exponente entero) de un nï¿½mero real (float). 
+	No utilizar la funciï¿½n de la librerï¿½a math.*/
 	
 	printf("ingrese el valor que desea elevar a una potencia: \n");
 	scanf("%f", &numero);
@@ -23,8 +23,7 @@ int main(void) {
 	
 }
 
-
-	operacion(){
+	int operacion(){
 		
 		base = numero;
 		

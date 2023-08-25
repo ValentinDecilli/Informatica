@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-
-int resolvente();
+float resolvente();
 float a;
 float b;
 float c;
@@ -12,10 +11,10 @@ float discriminante;
 float x1;
 float x2;
 
+	/*Realizar un programa donde se utilice una funci√≥n que calcule las ra√≠ces de la ecuaci√≥n cuadr√°tica
+ 		A x 2 +B x +C =0. Utilizar paso de argumentos por referencia.*/
 
 int main(void) {
-	
-	printf("Realizar un programa donde se utilice una funciÛn que calcule las raÌces de la ecuaciÛn cuadr·tica A x 2 +B x +C =0. Utilizar paso de argumentos por referencia.\n");
 	
 	printf("ingrese el valor de a: \n");
 	scanf("%f", &a);
@@ -30,12 +29,11 @@ int main(void) {
 	float *by = &b;
 	float *d = &c;
 
-	
-	resolvente(ax,by,d);
+	 resolvente(*ax,*by,*d);
 }
 
 
-	resolvente(float a, float b, float c){
+	float resolvente(float a, float b, float c){
 	
 	discriminante = pow(b,2) - 4*a*c;
 	

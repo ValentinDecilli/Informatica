@@ -3,9 +3,9 @@
 
 	int numeros[9];
 	
+	//Hacer un programa en C que lea 10 nï¿½meros enteros y determine la cantidad de ellos que son divisibles por 3.
+
 int main() {
-	
-	printf("Hacer un programa en C que lea 10 números enteros y determine la cantidad de ellos que son divisibles por 3.\n");
 	
 	printf("seleccione los numeros a ingresar\n");
 		

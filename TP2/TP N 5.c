@@ -12,7 +12,7 @@ int flag = 0;
 
 int main() {
 	
-	printf("Hacer un programa en C para calcular el máximo y el mínimo de N números leídos por teclado. \n");
+	//Hacer un programa en C para calcular el mï¿½ximo y el mï¿½nimo de N nï¿½meros leï¿½dos por teclado. 
 	
 	printf ("selecciones la cantidad de numeros que quiera comparar\n");
 	scanf("%d", &n);

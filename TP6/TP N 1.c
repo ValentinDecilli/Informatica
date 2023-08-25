@@ -3,6 +3,10 @@
 #include <stdio.h>
 #define PI 3.141592654
 
+/* Realizar un programa donde se utilice una funciÃ³n de conversiÃ³n de nÃºmeros complejos
+ 	de forma rectangular a polar y otra funciÃ³n de forma polar a rectangular. Utilizar 
+	paso de argumentos por referencia. */
+
 int pol_rect(float *ps, float *pd){
 	
 	float x = *ps * cos( *pd *(PI/180));	
@@ -25,11 +29,6 @@ float x,y,m,l;
 char n;
 
 int main() {
-	
-	printf(" Realizar un programa donde se utilice una función de conversión de números complejos"
-		   "de forma rectangular a polar y otra función de forma polar arectangular. Utilizar paso"
-		   "de argumentos por referencia.\n"); 
-	
 	
 	printf("que conversion desea realizar\n");
 	printf("a)conversion de polar a rectangular\n");

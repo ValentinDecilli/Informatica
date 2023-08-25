@@ -7,7 +7,7 @@ int factorial = 1;
 int n = 0;
 int main() {
 	
-	printf("Hacer un programa en C para calcular el factorial de N (N!=1·2·3·...·N)\n");
+	//Hacer un programa en C para calcular el factorial de N (N!=1ï¿½2ï¿½3ï¿½...ï¿½N)
 	
 	printf("ingrese el numero factorial que desea calcular: \n");
 	scanf("%d", &n);

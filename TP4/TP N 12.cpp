@@ -8,7 +8,7 @@ int i = 0;
 
 int main() {
 	
-	printf("Realizar un programa en C que lea una cadena y la encripte sumando 3 al código ASCII de cada carácter. Mostrar por pantalla.\n");
+	//Realizar un programa en C que lea una cadena y la encripte sumando 3 al cï¿½digo ASCII de cada carï¿½cter. Mostrar por pantalla.
 	
 	printf("ingrese su texto: \n");
 	gets(cadena);

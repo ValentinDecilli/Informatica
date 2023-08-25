@@ -10,7 +10,7 @@
 	
 int main() {
 		
-	printf("Hacer un programa en C que lea 5 valores de muestras de un ensayo, calcule el promedio y el valor cuadrático medio del error respecto al promedio.\n");
+	//Hacer un programa en C que lea 5 valores de muestras de un ensayo, calcule el promedio y el valor cuadrï¿½tico medio del error respecto al promedio.\n");
 	
 		printf("ingrese sus notas: \n");
 		

@@ -21,7 +21,7 @@ int operacion(int x1, int x2, int y1, int y2){
 
 int main() {
 	
-	printf("Crear una función que devuelva la distancia entre 2 puntos en el plano, ingresando las coordenadas x e y de cada punto como argumentos de la función.\n");
+	//Crear una funciï¿½n que devuelva la distancia entre 2 puntos en el plano, ingresando las coordenadas x e y de cada punto como argumentos de la funciï¿½n.\n");
 	
 	int x1, y1, x2, y2;
 	

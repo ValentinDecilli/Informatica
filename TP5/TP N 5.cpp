@@ -17,7 +17,7 @@ float valor;
 
 int main() {
 	
-	printf("Crear una función que devuelva el valor a pagar de una compra con descuento, introduciendo el precio (valor) de la compra y el descuento en porcentaje que se realiza. \n");
+	//Crear una funciï¿½n que devuelva el valor a pagar de una compra con descuento, introduciendo el precio (valor) de la compra y el descuento en porcentaje que se realiza.
 	
 	printf("introdusca el valor del producto: \n");
 	scanf("%f",&precio);

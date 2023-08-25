@@ -7,9 +7,10 @@
 int n,m;
 int matriz[3][3];
 
+
+	//Realizar una funciÃ³n que reciba como argumento una matriz de nÃºmeros reales de 3x3 y calcule el determinante.
+
 int determinante(int matr[]){
-	
-	printf("Realizar una función que reciba como argumento una matriz de números reales de 3x3 y calcule el determinante. \n");
 	
 	printf(" %d %d %d \n %d %d %d \n %d %d %d\n",matr[0],matr[1],matr[2],matr[3],matr[4],matr[5],matr[6],matr[7],matr[8]);
 	
@@ -26,8 +27,6 @@ int determinante(int matr[]){
 
 
 int main(void) {
-	
-	printf("Realizar una función que reciba como argumento una matriz de números reales de 3x3 y calcule el determinante.\n");
 	
 	printf("ingrese los valores de su matriz:\n");
 	

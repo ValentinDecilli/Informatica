@@ -31,9 +31,9 @@ char opcion;
 		
 int main() {
 	
-	printf("Crear una función que dado el radio devuelva la longitud de la circunferencia o el área"
-		   "del círculo o el volumen de la esfera, través de un segundo parámetro que seleccione" 
-		   "cualquiera de estas tres opciones.\n");
+	/*Crear una funciï¿½n que dado el radio devuelva la longitud de la circunferencia o el ï¿½rea"
+		   "del cï¿½rculo o el volumen de la esfera, travï¿½s de un segundo parï¿½metro que seleccione" 
+		   "cualquiera de estas tres opciones.*/
 	
 	printf("ingrese el valor del radio:\n");
 	scanf("%d",&radio);

@@ -13,7 +13,8 @@ int j = 0;
 
 int main() {
 	
-	printf("Realizar un programa donde se rellene un arreglo con los 20 primeros números primos. Mostrar en pantalla los elementos del arreglo.\n");
+	//Realizar un programa donde se rellene un arreglo con los 20 primeros nï¿½meros primos. Mostrar en pantalla los elementos del arreglo.
+	
 	while(condicion <=20){
 		
 		contador = contador + 1;

@@ -3,13 +3,14 @@
 #include <stdio.h>
 #include <math.h>
 
+
 int numeros[10];
 int promedio = 0;
 int total = 0;
 
-int main() {
+	//Hacer un programa en C que lea diez nï¿½meros reales por teclado y obtenga el promedio de los mismos.
 	
-	printf("Hacer un programa en C que lea diez números reales por teclado y obtenga el promedio de los mismos.\n");
+int main() {
 		
 	printf ("ingrese sus numeros:\n ");
 	

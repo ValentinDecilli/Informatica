@@ -2,6 +2,8 @@
 #include <math.h>
 #include <stdio.h>
 
+//Crear una funciÃ³n que devuelva el nÃºmero de dÃ­a del aÃ±o, ingresando como argumentos, el dÃ­a, mes y aÃ±o de la fecha.
+
 char mesesde[][20]={"1)enero","2)febrero","3)marzo","4)abril","5)mayo","6)junio","7)julio","8)agosto","9)septiembre","10)octubre","11)noviembre","12)diciembre"};
 int diastotal[]= {31,59,90,120,151,181,212,243,273,304,334,365};
 int mes;
@@ -29,7 +31,7 @@ int meses(){
 	
 int aniosde(){
 	
-	printf("\nes año bisiesto:\n1)si\n2)no");
+	printf("\nes aï¿½o bisiesto:\n1)si\n2)no");
 	printf("\nopcion: ");
 	scanf("%d", &anio);
 	return anio;
@@ -45,14 +47,14 @@ int calcular(int dia, int mes, int anio){
 		total++;
 	}
 	
-	printf("el numero del año es : %d",total);
+	printf("el numero del aï¿½o es : %d",total);
 	return 0;
 	}
 
 
 int main() {
 	
-	printf("Crear una función que devuelva el número de día del año, ingresando como argumentos, el día, mes y año de la fecha.\n");
+	printf("Crear una funciï¿½n que devuelva el nï¿½mero de dï¿½a del aï¿½o, ingresando como argumentos, el dï¿½a, mes y aï¿½o de la fecha.\n");
 	diasde();
 	meses();
 	aniosde();

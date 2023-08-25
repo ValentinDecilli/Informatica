@@ -27,7 +27,7 @@
 
 int main() {
 	
-	printf("Crear una función que devuelva el número menor de 3 números enteros ingresados como argumentos de la función.\n");
+	//Crear una funciï¿½n que devuelva el nï¿½mero menor de 3 nï¿½meros enteros ingresados como argumentos de la funciï¿½n.
 	
 	printf("ingrese los numero que desee comparar: \n");
 	scanf("%d %d %d",&num1, &num2, &num3);

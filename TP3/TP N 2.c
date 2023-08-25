@@ -10,7 +10,7 @@ int main(void) {
 	float total;
 	int estado = 1;
 	
-	printf("Realizar el programa anterior pero con la instrucción switch-case.\n");
+	//Realizar el programa anterior pero con la instrucción switch-case.
 	
 	printf("ingrese el valor de radio: \n");
 	scanf("%f", &radio);

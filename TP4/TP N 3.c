@@ -7,9 +7,9 @@ int flag1 = 0;
 int i;
 int main() {
 	
-	printf("Hacer un programa en C donde se lean las notas de 10 alumnos, ingresadas por teclado"
-		   "y determine la cantidad de alumnos que tuvieron notas por encima del promedio y la"
-		   "cantidad de alumnos por debajo del promedio.\n");
+	/*Hacer un programa en C donde se lean las notas de 10 alumnos, ingresadas por teclado"
+		y determine la cantidad de alumnos que tuvieron notas por encima del promedio y la"
+		cantidad de alumnos por debajo del promedio.*/
 	
 	printf("ingrese las notas: \n");
 	

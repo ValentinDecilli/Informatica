@@ -8,7 +8,7 @@ int j;
 
 int main() {
 	
-	printf("Realizar un programa en C que lea una cadena e indique cuantas vocales hay. \n");
+	//Realizar un programa en C que lea una cadena e indique cuantas vocales hay. 
 	
 	printf("ingrese su texto:\n");
 	gets(cadena);

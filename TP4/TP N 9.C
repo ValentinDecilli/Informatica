@@ -15,9 +15,10 @@ int l;
 	
 int main() {
 	
-	printf("Ampliar el programa anterior generando un tercer arreglo P, donde cada elemento P(i)"
-           "sea el promedio de los valores de la función para los índices i, i+1 e i+2. Es decir:"
-		   "P(i)=[S(i)+S(i+1)+S(i+2)]/3. Mostrar en forma de tabla.\n");
+	/*Ampliar el programa anterior generando un tercer arreglo P, donde cada elemento P(i)"
+        sea el promedio de los valores de la funciï¿½n para los ï¿½ndices i, i+1 e i+2. Es decir:"
+		P(i)=[S(i)+S(i+1)+S(i+2)]/3. Mostrar en forma de tabla.*/
+
 	for(i = 0 ; i <= 36 ; i++){
 		x = (10*i);
 		funcionx[i] = x; 

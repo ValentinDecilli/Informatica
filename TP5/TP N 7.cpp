@@ -17,7 +17,7 @@ int factorial(int valor){
 
 int main() {
 	
-	printf("Realizar una función que devuelva el factorial de un número entero, ingresando el número como argumento.\n");
+	//Realizar una funciï¿½n que devuelva el factorial de un nï¿½mero entero, ingresando el nï¿½mero como argumento.
 	
 	printf("ingrese su numero: ");
 	scanf("%d",&valor);

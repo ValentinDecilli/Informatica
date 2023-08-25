@@ -10,7 +10,8 @@ int contador = 0;
 int x;
 int main() {
 	
-	printf("Realizar un programa en C que lea 10 números enteros, los cargue en un arreglo y luego los ordene en el arreglo de manera descendente.\n");
+	//Realizar un programa en C que lea 10 nï¿½meros enteros, los cargue en un arreglo y luego los ordene en el arreglo de manera descendente.
+	
 	printf("ingrese los 10 numeros\n");
 	
 	for(i = 0 ; i < 10 ; i++){

@@ -8,9 +8,9 @@ int j;
 int i;
 int main() {
 	
-	printf("Hacer un programa en C que permita cargar las notas (entre 0 y 10 puntos) de 15 alumnos"
-		   "y luego se determine la frecuencia de cada nota, es decir la cantidad de alumnos que"
-		   "obtuvieron cada nota en particular. \n");
+	/*Hacer un programa en C que permita cargar las notas (entre 0 y 10 puntos) de 15 alumnos"
+		y luego se determine la frecuencia de cada nota, es decir la cantidad de alumnos que"
+		obtuvieron cada nota en particular.*/
 	
 	printf("ingrese las notas: \n");
 	

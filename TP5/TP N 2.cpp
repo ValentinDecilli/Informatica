@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-int resolvente();
 float a;
 float b;
 float c;
@@ -12,9 +11,9 @@ float x2;
 
 int main(void) {
 	
-	printf("Crear una función que devuelva las raíces de la ecuación cuadrática pasando a la función"
-		   "los coeficientes a, b, c como argumentos de la función. Agregar un argumento adicional para"
-		   "seleccionar una de las dos raíces.\n");
+	/*Crear una funciï¿½n que devuelva las raï¿½ces de la ecuaciï¿½n cuadrï¿½tica pasando a la funciï¿½n"
+		los coeficientes a, b, c como argumentos de la funciï¿½n. Agregar un argumento adicional para"
+		seleccionar una de las dos raï¿½ces.*/
 	
 	printf("ingrese el valor de a: \n");
 	scanf("%f", &a);
@@ -27,7 +26,7 @@ int main(void) {
 }
 
 
-resolvente(){
+int resolvente(){
 	
 
 	discriminante = pow(b,2) - 4*a*c;

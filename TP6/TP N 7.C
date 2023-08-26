@@ -4,55 +4,43 @@
 
 // Realizar una función que reciba como argumentos 2 matrices de número reales de 3x3 y obtenga el producto de las 2 matrices.
 
-int matriz1[3][3], matriz2[3][3];
-int flag = 0;
-int producto, puntero, puntero_2;
-int matriztotal[3][3];
-void matricez()
-{
-
-    if (flag == 0)
-    {
-
-        printf("ingrese los valores de su primer matriz:\n");
-        for (int j = 0; j < 3; j++)
-        {
-            for (int i = 0; i < 3; i++)
-            {
-
-                scanf("%d", &matriz1[j][i]);
-
-                printf("valor de su primera matriz %d[%d][%d]\n", matriz1[j][i], j, i);
-            }
-        }
-
-        flag = 1;
-    }
-
-    else
-    {
-        printf("ingrese los valores de su segunda matriz:\n");
-        for (int j = 0; j < 3; j++)
-        {
-
-            for (int i = 0; i < 3; i++)
-            {
-
-                scanf("%d", &matriz2[j][i]);
-
-                printf("valor de su segunda matriz %d[%d][%d]\n", matriz2[j][i], j, i);
+void operacion(double matriz1[3][3], double matriz2[3][3], double matriztotal[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            matriztotal[i][j] = 0;
+            for (int k = 0; k < 3; k++) {
+                matriztotal[i][j] += matriz1[i][k] * matriz2[k][j];
             }
         }
     }
-}
-
+}   
 
 int main()
 {
 
-    matricez();
-    matricez();
-    operacion(*matriz1,*matriz2);
+    double matriz1[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
 
+    double matriz2[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+
+    double matriztotal[3][3];
+
+    operacion(matriz1, matriz2, matriztotal);
+
+    printf("Resultado:\n");
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%.2f ", matriztotal[i][j]);
+        }
+        printf("\n");
+    }
 }
 
